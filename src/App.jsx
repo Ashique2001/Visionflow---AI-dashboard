@@ -1,9 +1,7 @@
+import AppRoutes from "./routes/AppRoutes";
+
 function App() {
-  return (
-    <div className="text-3xl font-bold p-10">
-      VisionFlow
-    </div>
-  )
+  return <AppRoutes />;
 }
 
-export default App
+export default App;
